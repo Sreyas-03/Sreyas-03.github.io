@@ -1,0 +1,159 @@
+body{
+    /* background-color: whitesmoke; */
+    height:vh;
+    width: vw;
+    background-image: url("https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(206, 206, 206, 0.748);
+    font-size: 1vw;
+    text-align: center;
+}
+
+li.navList {
+    float: left;
+    padding:0% 5%;
+}
+
+button.navbutton{
+    background-color: rgba(206, 206, 206, 0);
+    border: none;
+    outline: none;
+    padding: 1vh 3vw;
+    font-size: 1vw;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.navbutton:hover {
+background-image:none;
+background-color: rgb(175, 175, 175);
+transition-property: color, background;
+transition-duration: 0.4s; 
+transition-timing-function: ease-out; 
+color: rgb(247, 247, 247);
+}
+  
+.font_2 {
+    line-height:0.7em;
+    font-size:10vw;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    margin-right: auto;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    width: 50%;
+    color: grey;
+    z-index: index 2;
+}
+
+.color_11 {
+    letter-spacing:-0.05em;
+    z-index: 2;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.My_Image {
+    padding-top: 3vh;
+    position: absolute;
+    left: 50vw;
+    top: 7vh;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: 3vw;
+    height:50vh;
+    width: 50vh;
+}
+
+.intro {
+    width: 80vw;
+    height: 50vh;
+    background-color: lightslategrey;
+    z-index: -2;
+}
+
+
+.text_wbg {
+    margin-top: 5vh;
+    padding: 2vh;
+    font-size: 1vw;
+    background-color: lightslategrey;
+}
+
+#About {
+    width: 80vw;
+    position:absolute;
+    top: 60vh;
+    left: 7vw;
+}
+
+#Achievements {
+    position:absolute;
+    top: 85vh;
+    left: 7vw;
+    right: auto;
+    width: 35vw;
+}
+
+#EducationalBackground {
+    position: absolute;
+    font-size: 1.4vw;
+    padding: 3vh;
+    top: 85vh;
+    left: 51vw;
+    right: 7vw;
+    width: 35vw;
+}
+
+#Skills {
+    font-size: 1vw;
+    position:absolute;
+    top: 125vh;
+    left: 7vw;
+    width: 80vw;
+}
+
+#News {
+    position:absolute;
+    font-size: 1vw;
+    top: 150vh;
+    left: 7vw;
+    width: 80vw;
+}
+
+#redbtn {
+    background-color: red;
+    color: white;
+}
+
+#greenbtn {
+    background-color: green;
+    color: white;
+}
+
+#greybtn {
+    background-color: grey;
+    color: white;
+}
+
+#blackbtn {
+    background-color: black;
+    color: white;
+}

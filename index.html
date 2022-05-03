@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <button type="button" name="btn1" onclick="A_minus()">-A</button>
+    <button type="button" name="btn2" onclick="A()">A</button>
+    <button type="button" name="btn3" onclick="A_plus()">A+</button>
+    <button type="button" id="redbtn" onclick="SetRed()">RED</button>
+    <button type="button" id="greenbtn" onclick="SetGreen()">GREEN</button>
+    <button type="button" id="blackbtn" onclick="SetBlack()">BLACK</button>
+    <button type="button" id="greybtn" onclick="SetGrey()">GREY</button>
+    <button type="button" id="whitebtn" onclick="SetWhite()">WHITE</button>
+    <button type="button" id="Imgbtn" onclick="SetImage()">IMAGE</button>        
+
+    <br>
+
+
+
+
+    <ul class="navbar">
+        <li class="navList"><button class="navbutton" type="button" onclick="location.href='#About'">About</button></li>
+        <li class="navList"><button class="navbutton" type="button" onclick="location.href='#Achievements'">Achievements</button></li>
+        <li class="navList"><button class="navbutton" type="button" onclick="location.href='#Skills';">Skills</button></li>
+        <li class="navList"><button class="navbutton" type="button" onclick="location.href='#News';">News</button></li>
+    </ul>
+
+    <div class="gallery">
+        <a target="_blank" href="MyImage.jpeg">
+            <img class="My_Image" src="MyImage.jpeg" alt="My_Image">
+        </a>
+
+    </div>
+    
+    <h2 class="font_2">    
+        <span class="color_11">
+            Sreyas
+        </span>
+    </h2>
+
+    <div id="About" class="text_wbg">
+        <h3>
+            About
+        </h3>
+        <p id="P_about">
+            I am sreyas, student at <a href="https://www.iiit.ac.in/">International institue of information technology, hyderabad</a>. <br>
+            My hobbies are to play and watch sports like football, chess and cricket.
+        </p>
+    </div>
+
+    <div id="Achievements" class="text_wbg">
+        <h3>
+            Achievements
+        </h3>
+        <table>
+            <tr>
+              <th>Stream</th>
+              <th>Achievement</th>
+            </tr>
+            <tr>
+            <td>Educational</td>
+              <td>
+                <ul>
+                    <li>International Math Olympiad Training Camp </li>
+                    <li>Runners-up in Eureka Project of the year</li>
+                </ul>
+              </td>
+            </tr>
+            <td>Co-Curricular</td>
+            <td>
+                <ul>
+                    <li>State champion U-14 Karate(Kata)</li>
+                    <li>State champion U-14 Karate(Kumithe)</li>
+                </ul>
+            </td>
+            </tr>
+          </table>
+    </div>
+
+    <div id="EducationalBackground" class="text_wbg">
+        <h3>
+            Educational Background
+        </h3>
+        <table>
+            <tr>
+              <th>Institute</th>
+              <th>Course</th>
+            </tr>
+            <tr>
+            <td>PSBB Millennium</td>
+            <td>Upto 10th grade</td>
+            </tr>
+
+            <tr>
+            <td>Devi Academy</td>
+            <td>MPCC 11th and 12th grade</td>
+            </tr>
+            <td>IIIT, hyderabad</td>
+            <td>BTech+MS in computer science (2021-)</td>
+            <tr>
+          </table>
+    </div>
+
+    <div id="Skills" class="text_wbg">
+        <h3>
+            Skills
+        </h3>
+        <ul id="skillset">
+            <li>Creative Personelle</li>
+            <li>Able to work under pressure</li>
+            <li>Good team worker</li>
+        </ul>
+    </div>
+
+    <div id="News" class="text_wbg">
+        <h2>
+            News
+        </h2>
+        <form class="form" id="form">
+            <label for="Heading">Heading:</label><br>
+            <input type="text" id="Heading"><br>
+            <label for="Content">Last name:</label><br>
+            <input type="text" id="Content"><br><br>
+            <button type="button" id="Submit" onclick="AddNews()">Submit</button>
+          </form> 
+        
+        <script>  
+            DispAllNews();
+        </script>  
+
+        <p>Sreyas joined IIIT, hyderabad recently</p>
+    </div>
+
+</body>
+</html>

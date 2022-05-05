@@ -79,8 +79,8 @@ function AddNews() {
     {
         // console.log("got in!!!");
         localStorage.setItem(Heading_,details);
+        AppendLastNews(Heading_);
     }
-    AppendLastNews(Heading_);
 }
 
 

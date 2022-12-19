@@ -8,7 +8,7 @@ let data;
       'a Tech Enthusiast',
     ],
     resume:
-      'https://drive.google.com/file/d/1UoGwSmKeJQwybdtnFiEzsrmSRYv5nRrL/view?usp=sharing',
+      'https://iiitaphyd-my.sharepoint.com/:b:/g/personal/sreyas_saminathan_research_iiit_ac_in/ETkjMUDHKJFCnxeRSAkzXWIB5_PAlLCFmB5ZJ8Jc37Elkg?e=isN2jg',
     about: [
       `I am a 19 year old studying BTech. Computer Science, at IIIT Hyderabad.
       Everything seems to interest me if I learn about it, but in particular Quantum
